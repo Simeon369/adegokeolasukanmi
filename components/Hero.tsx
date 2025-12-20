@@ -85,21 +85,21 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 my-0 mb-10  sm:my-30 sm:pt-0">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 sm:pt-0 my-0 mb-10 sm:my-30">
         {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-heading tracking-wider mb-3 sm:mb-4"
+          className="font-heading tracking-wider mb-3 sm:mb-4 flex flex-col items-center justify-center"
         >
-          <span className="text-white text-6xl sm:text-6xl md:text-7xl lg:text-8xl block">
+          <span className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl block">
             COACH
           </span>
-          <span className="gradient-text text-7xl sm:text-7xl md:text-8xl lg:text-9xl block my-1 sm:my-2">
+          <span className="gradient-text text-6xl sm:text-7xl md:text-8xl lg:text-9xl block my-1 sm:my-2">
             ADEGOKE
           </span>
-          <span className="text-white text-6xl sm:text-5xl md:text-6xl lg:text-7xl block">
+          <span className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl block">
             OLASUKANMI
           </span>
         </motion.h1>
@@ -109,7 +109,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-base sm:text-sm md:text-2xl lg:text-3xl text-gray-400 font-light mb-6 sm:mb-8 tracking-wide px-4"
+          className="text-base sm:text-base md:text-2xl lg:text-3xl text-gray-400 font-light mb-6 sm:mb-8 tracking-wide px-4"
         >
           Elevating Athletes. Enforcing Excellence.
         </motion.p>
@@ -146,17 +146,17 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-6 sm:px-0"
+          className="flex flex-row gap-2 sm:gap-4 justify-center items-center"
         >
           <a
             href="#contact"
-            className="bg-gold-gradient text-midnight font-bold px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg hover:shadow-xl hover:shadow-gold/30 transition-all duration-300 btn-press w-full sm:w-auto max-w-[200px] sm:max-w-none text-center"
+            className="bg-gold-gradient text-midnight font-bold px-4 py-2 sm:px-8 sm:py-4 rounded-full text-xs sm:text-lg hover:shadow-xl hover:shadow-gold/30 transition-all duration-300 btn-press text-center"
           >
             Book a Session
           </a>
           <a
             href="#services"
-            className="border-2 border-gold/50 text-gold hover:bg-gold/10 font-bold px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg transition-all duration-300 w-full sm:w-auto max-w-[200px] sm:max-w-none text-center"
+            className="border-2 border-gold/50 text-gold hover:bg-gold/10 font-bold px-4 py-2 sm:px-8 sm:py-4 rounded-full text-xs sm:text-lg transition-all duration-300 text-center"
           >
             View Services
           </a>
