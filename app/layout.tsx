@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Coach Adegoke Olasukanmi | Basketball Coach & Official",
   description:
-    "Professional basketball coach, basketball referee, and flag football official. Elevating athletes and enforcing excellence on every court and field.",
+    "Professional basketball coach, basketball referee, and flag football official based in Nigeria. Elevating athletes and enforcing excellence on every court and field.",
   keywords: [
     "basketball coach",
     "basketball referee",
