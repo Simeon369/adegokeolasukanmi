@@ -14,6 +14,7 @@ const contactInfo = [
 
 const socialLinks = [
   { name: 'Instagram', href: 'https://www.instagram.com/olashot30/', username: '@olashot30' },
+  { name: 'Facebook', href: 'https://web.facebook.com/adegokeo3', username: '/coachsk30' },
 ]
 
 const serviceOptions = [
