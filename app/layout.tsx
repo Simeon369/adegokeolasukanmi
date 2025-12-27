@@ -20,11 +20,21 @@ export const metadata: Metadata = {
   description:
     "Professional basketball coach, basketball referee, and flag football official based in Nigeria. Elevating athletes and enforcing excellence on every court and field.",
   keywords: [
+    "adegoke olasukanmi",
     "basketball coach",
     "basketball referee",
     "flag football referee",
     "sports official",
     "athletic training",
+    "nigeria basketball",
+    "coach sk",
+    "youth sports coaching",
+    "sports mentorship",
+    "basketball training nigeria",
+    "official basketball games",
+    "flag football officiating",
+    "sports development",
+    "coach for athletes",
   ],
   authors: [{ name: "Coach Adegoke Olasukanmi" }],
   openGraph: {
