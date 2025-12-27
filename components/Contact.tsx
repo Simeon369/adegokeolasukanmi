@@ -9,7 +9,7 @@ const contactInfo = [
   { icon: Mail, label: 'Email', value: 'Tadedoyin80@gmail.com', href: 'mailto:Tadedoyin80@gmail.com' },
   { icon: Phone, label: 'Phone', value: '08063112860', href: 'tel:+2348063112860' },
   { icon: MapPin, label: 'Location', value: 'Lagos, Nigeria', href: '#' },
-  { icon: Clock, label: 'Availability', value: 'Mon - Sat: 8AM - 8PM', href: '#' },
+  // { icon: Clock, label: 'Availability', value: 'Mon - Sat: 8AM - 8PM', href: '#' },
 ]
 
 const socialLinks = [
@@ -217,7 +217,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+234 123 456 7890"
                     className="w-full px-4 py-3 bg-midnight-300/50 border border-gold/20 rounded-xl text-white placeholder-gray-500 focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all duration-300"
                   />
                 </div>

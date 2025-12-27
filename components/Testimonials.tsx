@@ -7,26 +7,26 @@ import { Quote, ChevronLeft, ChevronRight, Star } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: "Coach Adegoke transformed my game completely. His attention to detail and patient coaching style helped me become the player I always dreamed of being. He doesn't just teach basketball – he teaches life skills.",
-    name: 'Michael Johnson',
-    role: 'High School Athlete',
+    quote: "Coach Sk transformed my game completely. His attention to detail and patient coaching style helped me become the player I always dreamed of being. He doesn't just teach basketball – he teaches life skills.",
+    name: 'Ogunyinka Simeon',
+    role: 'Basketball Player',
     rating: 5,
   },
   {
-    quote: "Having Coach Adegoke officiate our tournament was a game-changer. His professionalism, knowledge of the rules, and fair judgment made every game run smoothly. The players and parents all appreciated his expertise.",
-    name: 'Sarah Williams',
-    role: 'League Coordinator',
+    quote: "Having Coach Sk officiate our tournament was a game-changer. His professionalism, knowledge of the rules, and fair judgment made every game run smoothly. The players and parents all appreciated his expertise.",
+    name: 'Kenny',
+    role: 'Tournament Organizer',
     rating: 5,
   },
   {
-    quote: "The best referee we've ever had for our flag football league. Coach Adegoke's calls are always fair, he explains rules clearly, and he keeps the game moving. Highly recommend for any sports organization.",
-    name: 'David Chen',
+    quote: "The best referee we've ever had for our flag football league. Coach Sk's calls are always fair, he explains rules clearly, and he keeps the game moving. Highly recommend for any sports organization.",
+    name: 'Adewale Shittu',
     role: 'Flag Football League Director',
     rating: 5,
   },
   {
-    quote: "My son's confidence on the court has skyrocketed since training with Coach Adegoke. He's not just a coach – he's a mentor who genuinely cares about the development of young athletes.",
-    name: 'Amanda Roberts',
+    quote: "My son's confidence on the court has skyrocketed since training with Coach Sk. He's not just a coach – he's a mentor who genuinely cares about the development of young athletes.",
+    name: 'Mrs. Johnson',
     role: 'Parent',
     rating: 5,
   },
@@ -163,7 +163,7 @@ export default function Testimonials() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-center text-gray-600 text-sm mt-12"
         >
-          * These are placeholder testimonials. Replace with real feedback from clients.
+
         </motion.p>
       </div>
     </section>

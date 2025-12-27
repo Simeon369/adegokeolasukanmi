@@ -13,9 +13,9 @@ const stats = [
 ]
 
 const certifications = [
-  { icon: Award, title: 'Certified Basketball Coach', org: 'National Basketball Association' },
-  { icon: Shield, title: 'Licensed Basketball Referee', org: 'State Athletic Commission' },
-  { icon: Medal, title: 'Flag Football Official', org: 'National Flag Football League' },
+  { icon: Award, title: 'Certified Basketball Coach', org: 'Nigerian Basketball Federation' },
+  { icon: Shield, title: 'Licensed Basketball Referee', org: 'Federal international Basketball Association' },
+  { icon: Medal, title: 'Flag Football Official', org: 'Showtime Flag' },
   { icon: GraduationCap, title: 'Sports Science Certificate', org: 'Continuing Education' },
 ]
 
@@ -133,7 +133,7 @@ export default function Credentials() {
               transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }}
               className="bg-midnight-200/30 backdrop-blur-sm border border-gold/10 rounded-xl p-6 hover:border-gold/30 transition-all duration-300 group"
             >
-              <div className="flex items-start gap-4">
+              <div className="flex items-center gap-4 h-full">
                 <div className="w-12 h-12 rounded-lg bg-gold-gradient flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                   <cert.icon className="w-6 h-6 text-midnight" />
                 </div>
@@ -153,7 +153,6 @@ export default function Credentials() {
           transition={{ duration: 0.8, delay: 1 }}
           className="text-center text-gray-600 text-sm mt-12"
         >
-          * Statistics and certifications are placeholders. Update with actual credentials.
         </motion.p>
       </div>
     </section>
